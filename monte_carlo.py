@@ -2,6 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn import metrics
 
+# ROC Curve function
 def rocurve(T0, T1,ngam):
     gammin = np.min([np.min(T0),np.min(T1)])
     gammax = np.max([np.max(T0),np.max(T1)])
