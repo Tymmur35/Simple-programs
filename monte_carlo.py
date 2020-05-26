@@ -24,7 +24,6 @@ for i in range(number_of_simulations):
 
 (Pfa,Pd)=rocurve(x_H0, x_H1,1000)
 
-
 plt.plot(Pfa, Pd, 'b' ,label='Energy Detector')
 plt.grid()
 plt.legend()
